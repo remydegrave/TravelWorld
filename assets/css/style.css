@@ -1,0 +1,155 @@
+html{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+header{
+    height: 400px;
+    background-image: url(../image/header.jpg);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+    color: #222222;
+}
+
+ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    list-style-type: none;
+    margin: 0;
+    background-color: #EFE7CE;
+    height: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+nav ul li a {
+    color: #222222;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+input{
+    color: #222222;
+    font-size: 18px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#home{
+    font-size: 20px;
+    background-color: #C5E5F2;
+    text-align: center;
+    margin: 10px 250px;
+    padding: 15px;
+    border-radius: 5px;
+    border: solid 2px #222222;
+}
+
+#lineContainer{
+    display: flex;
+}
+
+img{
+    height: 350px;
+    width: 400px;
+    border-radius: 10px;
+}
+
+.description{
+    font-size: 20px;
+    background-color: #C5E5F2;
+    padding: 10px;
+    border-radius: 25px;
+    border: solid 2px #222222;
+}
+
+.block{
+    display: flex;
+    flex-direction: column;
+    width: 33%;
+    align-items: center;
+    text-align: center;
+}
+
+#iconBurger{
+    display: none;
+}
+
+@media screen and (max-width: 375px) {
+    
+    header{
+        height: 150px;
+        background-image: url(../image/header.jpg);
+        background-size: cover;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 15px;
+        color: #222222;
+    }
+
+    ul{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        list-style-type: none;
+        margin: 0;
+        background-color: #EFE7CE;
+        height: 40px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+
+    nav ul li a {
+        color: #222222;
+        font-size: 10px;
+        text-decoration: none;
+    }
+
+    input{
+        display: none;
+    }
+
+    #home{
+        font-size: 10px;
+        background-color: #C5E5F2;
+        text-align: center;
+        margin: 10px 50px;
+        padding: 15px;
+        border-radius: 5px;
+        border: solid 2px #222222;
+    }
+
+    #lineContainer{
+        display: block;
+    }
+
+    img{
+        height: 200px;
+        width: 200px;
+        border-radius: 10px;
+        margin-top: 10px;
+    }
+
+    .description{
+        font-size: 15px;
+        background-color: #C5E5F2;
+        padding: 5px;
+        border-radius: 25px;
+        border: solid 2px #222222;
+        margin: 0px;
+    }
+
+    .block{
+        display: block;
+        flex-direction: column;
+        width: 55%;
+        align-items: center;
+        text-align: center;
+        margin-left: 80px;
+    }
+
+    h2{
+        text-align: center;
+    }
+}
